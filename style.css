@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 h1{
@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 75px;
 
 }
 .hw{
@@ -31,4 +32,24 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     padding-left: 5px;
+}
+.hwtwo img{
+    width:100%;
+}
+.hwtwo{
+    padding-left:40px ;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.fc{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(2, 192, 255),rgb(0, 0, 255));
+    color: white;
+    font-weight: 500;
+    padding: 10px 50px;
+    border-radius: 6px;
+}
+.lang{
+    width: 85%;
 }
