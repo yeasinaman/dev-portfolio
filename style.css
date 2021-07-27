@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto Slab', serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -20,10 +21,14 @@ section{
 }
 .cw{
     text-decoration: none;
-    background-image:linear-gradient(royalblue,navy);
+    background-image:linear-gradient(chartreuse,green);
     color: white;
     font-weight: 500;
     padding: 10px 40px;
     border-radius: 5px;
-    
+}
+.tb{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    padding-left: 5px;
 }
