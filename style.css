@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-size: 50px;
+}
+.lolipop{
+    color:green;
+}
+section{
+    display: flex;
+
+}
+.hw{
+    width: 50%;
+    padding-left: 5%;
+}
+.hw img{
+    width: 83%;
+}
+.cw{
+    text-decoration: none;
+    background-image:linear-gradient(royalblue,navy);
+    color: white;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 5px;
+    
+}
