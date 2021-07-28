@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .lolipop{
     color:green;
 }
-section{
+.flex{
     display: flex;
     margin-bottom: 75px;
 
@@ -51,5 +54,39 @@ section{
     border-radius: 6px;
 }
 .lang{
-    width: 85%;
+    width:85%;
+}
+.glass{
+    display: flex;
+}
+.exp-item{
+    box-shadow: 10px 10px 40px grey;
+    width:40%;
+    height: 325px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 80px;
+    border-radius: 5px;
+}
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#polar{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#school{
+    border-left: 7px solid;
+    border-image :linear-gradient(orange,tomato) ;
+    border-image-slice: 1;
+}
+#emu{
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    font-weight:700 ;
 }
