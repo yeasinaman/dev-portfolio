@@ -91,6 +91,9 @@ h2 {
 #emu {
   text-align: center;
 }
+.fc {
+  margin-right: 5px;
+}
 footer p {
   text-align: center;
   margin: 15px;
